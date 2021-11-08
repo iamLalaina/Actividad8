@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package actividad9;
+package actividad10;
 import java.util.List;
 import java.util.*;
 /**
@@ -11,10 +11,8 @@ import java.util.*;
  * @author abii_
  */
 public class Deck {
-    
     private List<Card> card;
     private Integer numCard = 52;
-    
     
    public List<Card> getCard(){
         return card;
@@ -35,9 +33,4 @@ public class Deck {
         Collections.shuffle(card);
         return "Mezclando... ";
     }
-    
-
-
-
-   
 }

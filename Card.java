@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package actividad9;
-
+package actividad10;
 /**
  *
  * @author abii_
@@ -33,7 +32,4 @@ public class Card {
    public void setValor(String valor){
        this.valor = valor;
    }
-   
-   
 }
-
